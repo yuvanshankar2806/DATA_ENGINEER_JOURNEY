@@ -1,0 +1,39 @@
+# If Statement in Python
+
+if condition:
+    # Code runs if the condition is True
+
+# If-Else Statement in Python
+
+if condition:
+    # Runs if True
+else:
+    # Runs if False
+
+# If Elif Else Statement oin Python
+
+if condition1:
+    # Code
+elif condition2:
+    # Code
+else:
+    # Code
+
+
+# Comparison Operators
+
+Operator	Meaning
+==	Equal to
+!=	Not equal to
+>	Greater than
+<	Less than
+>=	Greater than or equal to
+<=	Less than or equal to
+
+# Logic Operators
+
+And
+
+or
+
+Not
