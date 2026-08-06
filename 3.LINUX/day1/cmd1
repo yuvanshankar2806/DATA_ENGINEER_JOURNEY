@@ -1,0 +1,277 @@
+# Linux Learning Journey - Day 01
+
+## Date
+
+06 August 2026
+
+## Topics Covered
+
+* Introduction to Ubuntu Linux
+* Basic Linux Terminal Commands
+* Navigation between directories
+* Creating directories
+* Using the Vi/Vim text editor
+* Saving and quitting files
+
+---
+
+# What I Learned
+
+## 1. Ubuntu
+
+Ubuntu is a Linux operating system based on Debian. It is open-source, secure, and widely used for servers, cloud computing, software development, cybersecurity, and DevOps.
+
+---
+
+## 2. Terminal
+
+The Terminal is a command-line interface (CLI) used to interact with the Linux operating system.
+
+---
+
+## 3. Basic Commands
+
+### `pwd`
+
+Displays the current working directory.
+
+**Syntax**
+
+```bash
+pwd
+```
+
+**Example Output**
+
+```
+/home/yuvan
+```
+
+---
+
+### `ls`
+
+Lists the files and directories in the current location.
+
+**Syntax**
+
+```bash
+ls
+```
+
+Useful options:
+
+```bash
+ls -l     # Long listing
+ls -a     # Show hidden files
+ls -la    # Long listing with hidden files
+```
+
+---
+
+### `mkdir`
+
+Creates a new directory.
+
+**Syntax**
+
+```bash
+mkdir directory_name
+```
+
+**Example**
+
+```bash
+mkdir Linux_Practice
+```
+
+---
+
+### `cd`
+
+Changes the current directory.
+
+**Syntax**
+
+```bash
+cd directory_name
+```
+
+Examples:
+
+```bash
+cd Linux_Practice
+cd ..
+cd ~
+```
+
+* `cd ..` → Move one directory back
+* `cd ~` → Go to the home directory
+
+---
+
+## 4. Vi/Vim Editor
+
+### Open a File
+
+```bash
+vi filename.txt
+```
+
+or
+
+```bash
+vim filename.txt
+```
+
+---
+
+### Modes in Vim
+
+1. Normal Mode
+2. Insert Mode
+3. Command Mode
+
+Press **i** to enter Insert Mode.
+
+---
+
+### Save the File
+
+Press `Esc`
+
+Type:
+
+```bash
+:w
+```
+
+Press **Enter**
+
+---
+
+### Save and Quit
+
+```bash
+:wq
+```
+
+or
+
+```bash
+:x
+```
+
+---
+
+### Quit Without Saving
+
+```bash
+:q!
+```
+
+---
+
+## Commands Learned Today
+
+| Command | Purpose                |
+| ------- | ---------------------- |
+| `pwd`   | Show current directory |
+| `ls`    | List files and folders |
+| `ls -l` | Long listing           |
+| `ls -a` | Show hidden files      |
+| `mkdir` | Create a directory     |
+| `cd`    | Change directory       |
+| `cd ..` | Go to parent directory |
+| `cd ~`  | Go to home directory   |
+| `vi`    | Open Vi editor         |
+| `vim`   | Open Vim editor        |
+| `:w`    | Save file              |
+| `:wq`   | Save and quit          |
+| `:q!`   | Quit without saving    |
+
+---
+
+# Practice Commands
+
+```bash
+pwd
+
+ls
+
+ls -l
+
+ls -a
+
+mkdir Linux_Practice
+
+cd Linux_Practice
+
+pwd
+
+touch notes.txt
+
+ls
+
+vi notes.txt
+
+# Type some text
+
+# Press Esc
+
+:w
+
+:q
+
+vim notes.txt
+
+# Press i
+
+# Edit the file
+
+# Press Esc
+
+:wq
+
+cd ..
+
+pwd
+
+ls
+```
+
+---
+
+# Mini Practice Task
+
+1. Create a folder named `Linux_Day1`.
+2. Navigate into it.
+3. Create a file named `notes.txt`.
+4. Open it using Vim.
+5. Write:
+
+   ```
+   Hello Linux!
+   Today I learned basic Linux commands.
+   ```
+6. Save and quit.
+7. Verify the file using:
+
+   ```bash
+   ls
+   ```
+
+---
+
+# Summary
+
+Today I learned how to:
+
+* Navigate directories using the terminal.
+* View files and folders.
+* Create new directories.
+* Use the Vi/Vim editor.
+* Save and exit files in Vim.
+* Practice basic Linux terminal commands.
+
+**Day 1 Complete!**
